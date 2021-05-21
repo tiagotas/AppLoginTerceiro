@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLoginTerceiro.View.Protegida"
+             BackgroundColor="Purple"
+             Padding="10">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame CornerRadius="10" 
+                   VerticalOptions="CenterAndExpand">
+
+                <StackLayout>
+
+                    <Label x:Name="lbl_boasvindas" />
+
+                    <Button Text="Desconectar" Clicked="Button_Clicked" />
+
+                </StackLayout>               
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
