@@ -23,6 +23,11 @@ namespace AppLoginTerceiro.View
             InitializeComponent();
 
             PropriedadesApp = (App)Application.Current;
+            
+            frm_login.BackgroundColor = Color.FromRgba(1, 1, 1, 0.15);
+
+            txt_email.PlaceholderColor = Color.FromRgba(1, 1, 1, 0.3);
+            txt_senha.PlaceholderColor = Color.FromRgba(1, 1, 1, 0.3);
         }
 
         private void Button_Clicked(object sender, EventArgs e)
